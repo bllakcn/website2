@@ -1,9 +1,10 @@
 <template>
   <div id="text">
-    <div class="text-gray-100 pt-8 leading-relaxed">
+    <div class="pt-8 leading-relaxed">
       <div v-for="record in records" :key="record" class="pb-8">
-        <h1 class="font-serif text-4xl px-20 pb-2">{{record.fields.Title}}</h1>
-        <p class="text-lg text-justify px-24">{{record.fields.Notes}}</p>
+        <hr class="md:max-w-md md:ml-6 border-gray-200 mb-8">
+        <h1 class="font-serif text-gray-300 text-center md:text-left text-4xl px-6 md:px-16 pb-2">{{record.fields.Title}}</h1>
+        <vue-simple-markdown class="text-lg text-gray-200 text-justify px-8 md:px-20" :source="record.fields.Notes"></vue-simple-markdown>  
       </div>
     </div>
   </div>
