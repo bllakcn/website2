@@ -52,7 +52,6 @@ export default {
   },
   mounted () {
     this.getData();
-    console.log(this.records);
   },
 }
 </script>
