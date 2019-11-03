@@ -19,5 +19,8 @@ export default {
   .page-enter, .page-leave-to {
     opacity: 0;
   }
+  a{
+    text-decoration: none;
+  }
 
 </style>
