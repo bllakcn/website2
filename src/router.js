@@ -19,5 +19,16 @@ export default new Router({
       name: 'uyanış',
       component: Uyanış
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition){
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({ x: 0, y: 0 })
+        }, 1000)
+      })
+    }
+  }
 })

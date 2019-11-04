@@ -1,6 +1,6 @@
 <template>
   <div id="uyanış" class="bg-black min-h-screen">
-    <div id="giriş" class="fade-in opacity-0">
+    <div id="giriş" v-if="loaded" class="fade-in opacity-0">
       <router-link to="/">
         <h1 class="md:inline-block select-none text-gray-100 font-serif text-6xl p-5 md:px-20 text-center md:max-w-xs">Uyanış</h1>
       </router-link>
@@ -15,7 +15,7 @@
         </div>
       </div>
       <app-text></app-text>
-      <div v-if="loaded" class="w-48 mx-auto py-6 pb-12">
+      <div class="w-48 mx-auto py-6 pb-12">
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 779.67 783.2"><title>Uyanış</title><polygon points="390.61 6.37 303.29 181.93 477.91 181.93 390.61 6.37" style="fill:none;stroke:#b5b5b5;stroke-miterlimit:10;stroke-width:5.6692914962768555px"/><polygon points="303.29 181.93 7.62 776.4 773.49 776.4 477.91 181.93 303.29 181.93" style="fill:#b5b5b5;stroke:#b5b5b5;stroke-miterlimit:10;stroke-width:5.6692914962768555px"/><rect x="2.83" y="181.93" width="774" height="598.43" style="fill:none;stroke:#b5b5b5;stroke-miterlimit:10;stroke-width:5.6692914962768555px"/></svg>
       </div>
     </div>   
@@ -60,7 +60,7 @@ export default {
 
 <style>
 .fade-in{
-  animation: fade-in-anim 1s ease .7s forwards
+  animation: fade-in-anim 1.5s ease .7s forwards
 }
 
 </style>
