@@ -9,7 +9,7 @@
       </div>
       <div class="fade-in2 pt-10 md:pt-24 text-gray-100 opacity-0">
         <p class="text-justify px-8 md:px-32 font-serif md:text-lg py-16">Korkaklara göre bir iş değildir ipleri eline almak istemek. Eğer öyle isen kalanları okuyup vakit kaybetme. Hayatına devam et. Eğer bahsettiğim ateşi içinde hissediyorsan fikirlerimi seninle paylaşmak isterim. Amacım, İttihat ve Terakki cemiyetini günümüze göre yorumlamak. Öncelikle elzem olduğunu düşündüğüm 9 madde sunuyorum. Daha sonra bu maddeleri yorumluyorum. Bunları yazarken çok içten bir haz hissettim. Günümüz dünyasının sunduğu sıradan işler ile beynimi uyuşturmak yerine bu davaya kendimi adamış olmak içimde tarif edemediğim bir boşluğu doldurdu. Senin de doldurabilir. Yazdıklarımı okurken her neredeysen kafanı kaldır ve gökyüzüne bak. Hayal et. Dertlerinden arın ve bu ruhu hisset.</p>
-        <h1 class="text-right px-8 md:px-32 text-lg font-serif italic">Ömer Halit Çınar</h1>
+        <h1 class="text-right px-8 md:px-32 text-lg font-serif italic">Mihver-i Nizam Konseyi</h1>
         <h1 class="text-right px-8 md:px-32 italic">24.04.2019</h1>
       </div>
       <div class="py-10">
